@@ -1,0 +1,21 @@
+//Create a function truncate(str, maxlength) that checks the length of the str and, if it exceeds maxlength – replaces the end of str with the ellipsis character "…", to make its length equal to maxlength.
+//
+// The result of the function should be the truncated (if needed) string.
+//
+// For instance:
+//
+//truncate("What I'd like to tell on this topic is:", 20) = "What I'd like to te…"
+//truncate("Hi everyone!", 20) = "Hi everyone!"
+
+
+
+
+//solution
+//The maximal length must be maxlength, so we need to cut it a little shorter, to give space for the ellipsis.
+
+//Note that there is actually a single Unicode character for an ellipsis. That’s not three dots.
+
+    function truncate(str, maxlength) {
+    return (str.length > maxlength) ?
+        str.slice(0, maxlength - 1) + '…' : str;
+}
