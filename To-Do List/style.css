@@ -1,0 +1,69 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+    font-size: 25px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#todos_input{
+    width: 100%;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+}
+.header{
+    max-width: 800px;
+}
+.labels{
+    font-weight: 600;
+    font-size: 30px;
+}
+#todo_add_btn{
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+li{
+    display: flex;
+}
+.todo-list-div{
+    margin-top: 15px;
+}
+.checkbox{
+    margin-top: 13px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.par{
+    max-width: 750px;
+    width: 100%;
+}
+.lined p{
+    text-decoration: line-through;
+}
+#del{
+    color: red;
+    cursor: pointer;
+}
+input[type="checkbox"] {
+    transform: scale(1.5);
+    filter: invert(100%) hue-rotate(60deg) brightness(1.7);
+}
