@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram Login Page</title>
+    <style>
+        .container{
+            background-color: whitesmoke;
+            font-family: sans-serif;
+            padding: 50px;
+            display: flex;
+        }
+
+        .block{
+            width: 450px;
+            margin: 15px;
+            display: block;
+        }
+
+        .white_region{
+            border: darkslategrey;
+            background-color: white;
+            margin-bottom: 26px;
+        }
+
+        #logo{
+            width: 440px;
+            height: 777px;
+        }
+
+        .logo{
+            margin: 12px;
+            display: block;
+            padding-left: 240px;
+        }
+
+        #submit_button{
+            background-color: royalblue;
+            color: white;
+            height: 40px; !important;
+            width: 419px; !important;
+            font-size: 27px;
+            border-radius: 7px;
+        }
+
+        #password_forgot{
+            text-decoration: None;
+            color: royalblue;
+            width: 450px;
+            margin-top: 32px;
+            margin-left: 170px;
+            font-size: 16px;
+        }
+
+        #login_form{
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+
+        input{
+            margin-left:15px;
+            margin-right: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            width: 410px;
+            font-size: 17px;
+            height: 40px;
+        }
+
+        a{
+            text-decoration: None;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #signup{
+            padding-bottom: 29px;
+            padding-top: 29px;
+            text-align: center;
+            font-size: 19px;
+        }
+
+        #signup_link{
+            color: royalblue;
+            font-weight: bold;
+            margin-left: 1px; !important;
+        }
+
+        #facebook_login{
+            font-size: 20px;
+            color: royalblue;
+            align-content: center;
+            margin-left: 110px;
+        }
+
+        #title{
+            align-content: center;
+            margin-bottom: 32px;
+            margin-top: 32px;
+            margin-left: 100px;
+        }
+
+        footer{
+            align-content: center;
+            font-size: 15px;
+            color: gray;
+        }
+
+        #higher_footer{
+            padding-left:68px;
+        }
+
+        #lower_footer{
+            padding-left: 650px;
+        }
+
+        #download{
+            margin-left: 40px;
+        }
+
+        #install_app{
+            margin-left: 150px;
+        }
+
+        #alternative{
+            margin-left: 200px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img id="logo" src="static/img/instagram.png" alt="instagram">
+    </div>
+
+
+    <div class="block">
+        <form id="login_form" class="white_region">
+            <img src="static/img/insta_logo.png" alt="logo" id="title">
+            <input placeholder="Имя пользователя, номер телефона или эл. адрес" type="text">
+            <input placeholder="Пароль" type="password">
+            <input type="submit" value="Войти" id="submit_button">
+
+            <p id="alternative">ИЛИ</p>
+
+            <a href="1.%20facebook.html" id="facebook_login"><img src="static/img/facebook-icon.png" height="20px" alt="facebook"> Войти через Facebook</a>
+
+            <br>
+            <br>
+
+            <a id="password_forgot">Забыли пароль?</a>
+        </form>
+        <div class="white_region" id="signup">
+            У вас ещё нет аккаунта? <a id="signup_link">Зарегистрироваться</a>
+        </div>
+
+        <p id="install_app">Установите приложение.</p>
+
+        <img id="download" src="static/img/download.png" alt="download">
+    </div>
+</div>
+
+<footer>
+    <p id="higher_footer">
+        <a>Meta</a>
+        <a>Информация</a>
+        <a>Блог</a>
+        <a>Вакансии</a>
+        <a>Помощь</a>
+        <a>API</a>
+        <a>Конфиденциальность</a>
+        <a>Условия</a>
+        <a>Популярные аккаунты</a>
+        <a>Места</a>
+        <a>Instagram Lite</a>
+        <a>Загрузка контактов и лица, не являющиеся пользователями</a>
+        <a>Русский</a>
+    </p>
+    <p id="lower_footer">
+        <a>Русский</a>
+        <a>&copy; 2023 Instagram from Meta</a>
+    </p>
+</footer>
+</body>
+</html>
